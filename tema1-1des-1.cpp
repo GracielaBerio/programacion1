@@ -8,4 +8,5 @@ int main(){
     scanf("%d",&num2);
     suma=num1+num2;
     printf("El resultado de la suma es %d\n",suma); 
+    return 0;
 }
