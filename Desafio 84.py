@@ -23,3 +23,12 @@ print("Estudiantes ordenados por promedio (descendente):")  # Mensaje informativ
 # Recorre la lista ya ordenada e imprime cada estudiante con su promedio
 for e in estudiantes:
     print(e)
+    
+    
+    #Desafío 84
+
+def seleccion_desc(lst):
+    for i in range(len(lst)):
+        m = max(range(i,len(lst)), key=lambda k: lst[k][1])
+        lst[i], lst[m] = lst[m], lst[i]
+
